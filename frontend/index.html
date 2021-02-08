@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div id='difficulty'> Difficulty:
+		<button>Easy</button>
+		<button>Medium</button>
+		<button>Insane!</button>
+	</div>
+	<form action="#" class='board-form'>Select your board:
+		<div>
+			<label for="columns">Columns:</label>
+			<input type="number" name='columns' id='columns' max="4" min='1'>
+		</div>
+		<div>
+			<label for="rows">Rows:</label>
+			<input type="number" name='rows', id='rows' max="4" min="1">
+		</div>
+		<input type="submit" value='play'>
+	</form>
+
+	<div class = 'winner'> You Won!
+	</div>
+
+	<div class='game'>Your Bingo Board
+		<div class='counter-container'>Select your number:
+			<div class='picks'>
+				<div class='counter'>1</div>
+				<div class='answer'></div>
+			</div>
+		</div>
+		<div class='playing-board'>
+	
+		</div>
+		<button class='start-over'>Start Over</button>
+	</div>
+
+	
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+	<script src="https://unpkg.com/axios/dist/axios.js"></script>
+</body>
+</html>

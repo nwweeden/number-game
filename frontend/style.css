@@ -1,0 +1,67 @@
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: bisque;
+}
+
+table, tr, td {
+	border: solid whitesmoke 5px;
+	border-collapse: collapse;
+}
+
+.board-form {
+	font-weight: bolder;
+	font-size: xx-large;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.board-form > div > label {
+	font-size: large;
+}
+
+td {
+	width: 250px;
+	height: 100px;
+	text-align: center;
+	font-size: xx-large;
+	color: whitesmoke;
+	background-color: cornflowerblue;
+}
+
+.game, .winner {
+	display: none;
+	font-size: 30px;
+	font-weight: bolder;
+}
+
+.counter-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: 20px;
+	font-weight: normal;
+	font-style: italic;
+}
+
+.counter:hover {
+	background-color: cornflowerblue;
+	color: whitesmoke;
+	cursor: pointer;
+}
+
+.counter {
+	font-size: xx-large;
+	border-radius: 50%;
+	border: solid black 5px;
+	height: 100px;
+	width: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
